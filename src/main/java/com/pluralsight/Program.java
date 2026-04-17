@@ -10,5 +10,18 @@ public class Program {
 
         String[] names = fullName.split(" ");
 
+        String firstName = names[0];
+        String middleName;
+        String lastName;
+        if(names.length == 3){
+            middleName = names[1];
+            lastName = names[2];
+        }else{
+            lastName = names[1];
+            middleName = "none";
+        }
+
+        System.out.printf("First name: %s\n Middle name: %s\n Last name: %s\n",firstName, middleName, lastName);
+
     }
 }
