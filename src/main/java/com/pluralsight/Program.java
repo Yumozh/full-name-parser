@@ -8,6 +8,7 @@ public class Program {
         System.out.println("Please enter your name: ");
         String fullName = input.nextLine().trim();
 
+        String[] names = fullName.split(" ");
 
     }
 }
