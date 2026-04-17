@@ -21,7 +21,7 @@ public class Program {
             middleName = "none";
         }
 
-        System.out.printf("First name: %s\n Middle name: %s\n Last name: %s\n",firstName, middleName, lastName);
+        System.out.printf("First name: %s\nMiddle name: %s\nLast name: %s\n",firstName, middleName, lastName);
 
     }
 }
